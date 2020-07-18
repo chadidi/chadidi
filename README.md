@@ -1,15 +1,15 @@
 ## Hello World! <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
 
-<a href="https://twitter.com/chadididev">
+<a href="https://twitter.com/chadididev" target="_blank">
   <img align="left" alt="Abdellah Chadidi - Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
-<a href="https://www.linkedin.com/in/chadidi/">
+<a href="https://www.linkedin.com/in/chadidi/" target="_blank">
   <img align="left" alt="Abdellah Chadidi - Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
-<a href="https://www.facebook.com/chadididev">
+<a href="https://www.facebook.com/chadididev" target="_blank">
   <img align="left" alt="Abdellah Chadidi - Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
 </a>
-<a href="https://www.chadidi.dev/">
+<a href="https://www.chadidi.dev/" target="_blank">
   <img align="left" alt="Abdellah Chadidi - Portfolio" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/ansible.svg" />
 </a>
 <br />
