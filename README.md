@@ -17,6 +17,4 @@
 
 ### I am Abdellah Chadidi
 - A PHP developer.
-- Currently working as a back-end developer and on some of my cool side projects based on Web Development and Augmented Reality.
-
-⭐️ Visit this special webite [Fevrok](https://www.fevrok.com)
+- Currently working as a back-end developer **@Airbit** and on some of my cool side projects based on Web Development and Augmented Reality.
