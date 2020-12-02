@@ -7,7 +7,7 @@
     </a>
 </p>
 
-- 🔭 I’m currently working **@Airbit** and on some of my cool side projects based on Web Development and Augmented Reality.
+- 🔭 I’m currently working [**@Airbit**](https://airbit.com/) and on some of my cool side projects based on Web Development and Augmented Reality.
 
 - 👨‍💻 All of my projects are available at [chadidi.dev](https://chadidi.dev)
 
