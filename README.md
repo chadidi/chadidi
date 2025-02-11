@@ -1,75 +1,37 @@
-```php
-<?php
+# 👋 Hi, I'm **Abdellah Chadidi**
 
-namespace Github;
+### Backend Developer | PHP (Laravel) | Golang | Focused on Quality & Performance 🚀
 
-use DateTime;
+---
 
-class About implements Person
-{
-    use HasStuffGoing;
+I'm a passionate backend developer on a mission to create scalable systems and optimize code. Currently, I'm working on **[Recroot.dev](https://www.recroot.dev/)**, a platform that connects tech companies with top-tier developers from around the world 🌍.
 
-    private string $name = 'Abdellah Chadidi';
-    private string $title = 'Backend Developer & Entrepreneur';
-    private string $currentProject = 'Recroot.dev';
+---
 
-    private array $specialties = [
-        'Backend Development 🖥️',
-        'Scalability 🚀',
-        'Code Quality ✅',
-        'Performance Optimization ⚡',
-    ];
+### 💻 **Technologies I Use**
+- **Backend**: PHP, Laravel, Node.js  
+- **Frontend**: Vue.js, Nuxt.js, Flutter, React  
+- **Cloud & DevOps**: AWS, Docker, Nginx, Redis  
+- **Databases**: MySQL, MariaDB, MongoDB  
 
-    private array $technologies = [
-        'Backend' => ['PHP', 'Laravel', 'Node.js'],
-        'Frontend' => ['Vue.js', 'Nuxt.js', 'Flutter', 'React'],
-        'Cloud & DevOps' => ['AWS', 'Docker', 'Nginx', 'Redis'],
-        'Databases' => ['MySQL', 'MariaDB', 'MongoDB'],
-    ];
+---
 
-    private array $notableWork = [
-        'Airbit (1M+ users) 🎵',
-        'Rwaq (4M+ users, incl. a streaming platform) 📺',
-    ];
+### 🌱 **What I'm Learning**
+- Currently diving into **Go** and **Prompt Engineering** to expand my skills.
 
-    private array $hobbies = ['Traveling ✈️', 'Exploring Cafés ☕', 'Building Cool Stuff 💡'];
-    private array $currentlyLearning = [];
+---
 
-    private string $email = 'ac@recroot.dev';
-    private string $twitter = 'https://twitter.com/chadididev';
+### 🎨 **Fun Facts & Hobbies**
+- I love **traveling** and exploring new places ✈️  
+- Coffee enthusiast ☕ – always on the hunt for the best cafés!  
+- Passionate about **building cool stuff** 💡
 
-    public function __construct()
-    {
-        echo "👋 Hey there! I'm {$this->name}, a {$this->title}!\n";
-    }
+---
 
-    public function addCurrentlyLearning(string $topic): void
-    {
-        $this->currentlyLearning[] = $topic;
-    }
+### 📫 **Get in Touch**
+- **Email**: [ac@recroot.dev](mailto:ac@recroot.dev)  
+- **Twitter**: [@chadididev](https://twitter.com/chadididev)  
+- **LinkedIn**: [Abdellah Chadidi](https://linkedin.com/in/chadidi)  
+- **Instagram**: [@chadididev](https://www.instagram.com/chadididev/)
 
-    // Other getters inside the trait!
-
-    public function getDateInfo(): string
-    {
-        return "📅 Today is " . (new DateTime())->format('l, F j, Y') . ". Keep coding!";
-    }
-
-    public function getCurrentlyLearning(): string
-    {
-        return empty($this->currentlyLearning)
-            ? "📖 Currently, I'm focusing on mastering new technologies and concepts."
-            : "📖 Currently learning: " . implode(', ', $this->currentlyLearning) . ".";
-    }
-}
-
-// Example Usage
-$me = new About;
-$me->addCurrentlyLearning('Go');
-$me->addCurrentlyLearning('Prompt Engineering');
-
-echo "\n" . $me->getCurrentlyLearning() . "\n";
-echo $me->getContactInfo() . "\n";
-echo $me->getDateInfo() . "\n";
-
-```
+---
